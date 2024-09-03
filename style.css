@@ -1,0 +1,145 @@
+.text1SignUp{
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 10%;
+    animation: fadeIn 3s ease-in-out;
+}
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+.imgBack{
+    background-image: url("bg/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+}
+.logo{
+    background-image: url("logo/The\ Hope-logos_transparent.png");
+    background-position: center;
+    background-repeat: no-repeat;
+   height: 30vh;
+   width:100% ;
+    background-size: cover;
+    animation: slideInDown 2s ease-in-out;
+   
+}
+  @keyframes slideInDown {
+    from {
+      transform: translateY(-50vh);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .signInText{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+    
+  }
+  .row {
+    margin-bottom: 20px; 
+  }
+  
+  .input-pair,
+  .checkbox-pair {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .input-pair input {
+    padding: 8px;
+    
+  }
+  
+  .input-pair .icon {
+    margin-left: 8px; 
+  }
+  .input-pair .icon :hover {
+   cursor: pointer;
+  }
+  
+  
+  .checkbox-pair input {
+    margin-right: 8px; 
+  }
+  .checkbox-pair input:hover {
+    cursor: pointer; 
+  }
+  .checkbox-pair a {
+   
+   margin-left: 30%;
+   
+  }
+  .signInBox{
+    background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  animation: slideInDown 2s ease-in-out;
+ 
+  }
+  .signUpBox{
+    background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  animation: slideInDown 2s ease-in-out;
+  }
+  
+.links{
+  height: 8vh;
+  margin-top: 1vh;
+
+  
+}
+.logo2{
+  background-image: url("logo/The Hope-logos_transparent2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 8vh;
+  margin-top: 1vh;
+  background-size: contain;
+ 
+ 
+}
+.item{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  
+}
+.item:hover{
+  color: rgb(11, 50, 167);
+  margin-top: -1%;
+}
+.text{
+  
+  font-size: 30px;
+  font-style: italic;
+  margin-left: 5%;
+  animation: fadeIn 3s ease-in-out;
+  margin-top: 30%;
+}
+.button{
+ 
+  margin-top: 30vh;
+}
+.button button{
+  margin-left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  animation: slideInDown 2s ease-in-out;
+
+}
+.button button:hover{
+  box-shadow: 0px 0px 3px 5px #0b0c0f;
+}
